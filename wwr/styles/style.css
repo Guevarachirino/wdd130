@@ -48,6 +48,7 @@ nav a:hover {
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #f0f0ec;
@@ -56,6 +57,7 @@ nav a:hover {
 #background {
     background-color: #b9a44c;
     height: 725px;
+   
 }
 .msg {
     background-color: #fe9920;
@@ -70,14 +72,15 @@ footer {
 }
 
 .home-title {
-    color: #fcfbfb;
+    color: #e0cd06;
     font-family: 'PT Sans Narrow', Arial, Helvetica, sans-serif;
-    font-size: 2em;
+    font-size: 4em;
     margin-top: 10px;
 }
 
 h4 {
-    color: #f8faf6;
+    color: #fe9920;
+    font-size: 2em;
 }
 
 .msg h2 {
@@ -129,4 +132,16 @@ footer .social img{
 
 .rivers-card, .camping-card, .rapids-card{
     margin: 200px 0;
+}
+
+.mountains{
+    margin: 200px 0;
+    margin-top: 100px;
+}
+
+.card-img {
+    border: 10px solid #fe9920;
+}
+main section img {
+    box-sizing: border-box;
 }
