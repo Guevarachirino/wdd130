@@ -133,6 +133,11 @@ h2{
     color: #e9e904;
     margin: 0;
 }
+h1{
+    color: #0c0c0b;
+    margin: 0;
+    
+}
 #logo_link{
     padding-top: 5px;
     justify-self: center;
@@ -217,6 +222,28 @@ nav {
 
 }
 
+#paragraph{
+    background-color: #b9a44c;
+    color: #1b1b1f;
+    padding: 25px 50px;
+    margin-top: 50px;
+    justify-content: space-around;
+    align-items: center;
+   
+
+}
+#secondpart{
+    background-color: #e0d8b7;
+    color: #1b1b1f;
+    padding: 15px 20px;
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+    justify-content: space-around;
+    align-items: center;
+   
+
+}
 
 
 @media screen and (max-width: 900px) {
