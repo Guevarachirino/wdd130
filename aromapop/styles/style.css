@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+#content {
+    margin: 0 auto;
+    max-width: 1600px;
+    
+}
+
+nav a {
+    text-align: center;
+    color: #723d46;
+    text-decoration: none;
+    padding: 35px;
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+
+.button-box {
+    text-align: center;
+    
+}
+
+main section {
+    text-align: center;
+}
+
+body {
+    background-color: #723d46;
+    font-family: 'PT Sans Narrow', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+nav a:hover {
+    background-color: #dce5d1;
+    color: #000000;
+}
+.book, .join {
+    background-color: #eaeff1;
+    color: #1a1918;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.book:hover, .join:hover {
+    background-color: #f0f0ec;
+    color: #fe9920;
+}
+#background {
+    margin-top: 3%;
+    background-color: #c9cba3;
+    height: 725px;
+    grid-column: 1/11;
+    grid-row: 4/9;
+
+   
+}
+.msg {
+    background-color: #ffe1a8;
+    line-height: 1.5em;
+    padding: 60px;
+    grid-column: 5/9;
+    grid-row: 6/7;
+    box-shadow: 7px 7px 10px #6f7364;
+    margin-right: 80px;
+}
+footer {
+    background-color: #c9cba3;
+    color: #1b1b1f;
+    padding: 25px 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home-title {
+    color: #e0cd06;
+    font-family: 'PT Sans Narrow', Arial, Helvetica, sans-serif;
+    font-size: 4em;
+    margin-top: 10px;
+}
+
+h4 {
+    color: #fe9920;
+    font-size: 2em;
+}
+
+.msg h2 {
+color: #030214;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.msg p {
+    color: #723d46;
+    font-size: .8em;
+    padding-bottom: 10px;
+}
+
+footer a {
+    color: #0a0a0f;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #c9cba3;
+}
+.logo {
+    width: 80px;
+}
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+#hero-img {
+    width: 100%;
+}
+
+footer p {
+    font-size: 1.2em;
+} 
+footer p a:hover {
+    text-decoration: underline;
+} 
+h2{
+    color: #FDF5E6;
+    margin: 0;
+}
+h1{
+    color: #0c0c0b;
+    margin: 0;
+    
+}
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+.mango-card{
+    margin: 200px 0;
+    grid-column: 2/4;
+    grid-row: 2/3;
+    
+    
+}
+.rose-card{
+    margin: 200px 0;
+    grid-column: 5/7;
+    grid-row: 2/3;
+
+}
+.eucalyptus-card{
+    margin: 200px 0;
+    grid-column: 8/10;
+    grid-row: 2/3;
+}
+
+
+.home-picture{
+    /* probando */
+    margin: 50px;
+    margin-left: 80px;
+    margin-top: 80px;
+    width: 70%;
+    grid-column: 1/5;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #c9cba3;
+}
+
+.card-img {
+    border: 10px solid #FFEFD5;
+    /*probando*/
+    /*width: 100%;*/
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+main section img {
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#hero-msg h4 {
+    color: white;
+}
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+
+.home-grid{
+    display: grid;
+    grid-template-columns: 10fr;
+
+}
+
+#paragraph{
+    background-color: #b9a44c;
+    color: #1b1b1f;
+    padding: 25px 50px;
+    margin-top: 50px;
+    justify-content: space-around;
+    align-items: center;
+   
+
+}
+#newarrivals{
+    background-color: #FAF0E6;
+    color: #1b1b1f;
+    padding: 15px 20px;
+    margin-top: 50px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    
+
+}
+.newarrivals_h1{
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
