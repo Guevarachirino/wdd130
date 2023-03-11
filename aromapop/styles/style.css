@@ -260,6 +260,27 @@ nav {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #c9cba3;
 }
+.tips {
+    background-color: #FAF0E6;
+    line-height: 1.5em;
+    padding: 150px;
+    grid-column: 5/9;
+    grid-row: 6/7;
+    box-shadow: 7px 7px 10px #6f7364;
+    margin-right: 80px;
+}
+#newtips{
+    background-color: #c9cba3;
+    color: #1b1b1f;
+    padding: 15px 20px;
+    margin-top: 90px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    
+
+}
+
 @keyframes slidein {
     from {
       margin-left: 100%;
