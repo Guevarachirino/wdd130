@@ -68,7 +68,7 @@ nav a:hover {
 }
 .msg {
     background-color: #ffe1a8;
-    line-height: 1em;
+    line-height: 1.6em;
     font-size: 1.5em;
     padding: 80px;
     grid-column: 4/9;
@@ -344,6 +344,60 @@ nav {
     grid-column: 1/5;
     grid-row: 6;
 }
+/*formulario de contacto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .form-contact {
+    background: #FFF;
+    width: 700px;
+    box-shadow: 7px 13px 37px rgba(0, 0, 0, .8);
+    margin-top: 10%;
+    margin-left: 27%;
+    margin-bottom:10%;
+    
+  }
+  .contact {
+    padding: .8rem;
+    overflow: hidden;
+    color: black;
+  }
+  
+  .contact label, .contact input, .contact textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;   
+  }
+  
+  .contact label {
+    font-weight: 700;
+  }
+  
+  .contact input:not([type='submit']), .contact textarea {
+    border: none;
+    border-bottom: 2px solid #ff165d;
+    margin-bottom: 10px;
+    font-size: 20px;
+    outline: none;
+    color: gray;
+  }
+  
+  .contact textarea {
+    min-height: 100px;
+  }
+  
+  input[type='submit'] {
+    padding: 10px;
+    background: #f6a700;
+    border: none;
+    color: rgb(18, 17, 17);
+    font-size: 20px;
+    /* pointer-events: none; */
+    cursor: pointer;
+  
+  }
 
 
 @keyframes slidein {
